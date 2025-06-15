@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0a74da;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background-color: #004d99;
+    box-shadow: 0 3px 8px rgba(0, 116, 217, 0.3);
+}
+
+nav.container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap;
+}
+
+nav .btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.home-container .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.product-detail img {
+    width: 300px;
+    height: auto;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}

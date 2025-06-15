@@ -1,0 +1,72 @@
+[
+  {
+    "courseId": "1",
+    "quizId": "quiz-1",
+    "question": "What is a React component?",
+    "options": ["A CSS class", "A JavaScript function or class", "An HTML tag"],
+    "answer": "A JavaScript function or class"
+  },
+  {
+    "courseId": "2",
+    "quizId": "quiz-2",
+    "question": "Which component is used for navigation in React Router?",
+    "options": ["RouterLink", "NavLink", "Link"],
+    "answer": "Link"
+  },
+  {
+    "courseId": "3",
+    "quizId": "quiz-3",
+    "question": "Which hook is used to manage state in a React component?",
+    "options": ["useState", "useRouter", "useEffect"],
+    "answer": "useState"
+  },
+  {
+    "courseId": "4",
+    "quizId": "quiz-4",
+    "question": "What does the Context API help you manage?",
+    "options": ["Component lifecycle", "Global state", "Routing logic"],
+    "answer": "Global state"
+  },
+  {
+    "courseId": "5",
+    "quizId": "quiz-5",
+    "question": "Redux is used primarily for what?",
+    "options": ["API calls", "Styling", "State management"],
+    "answer": "State management"
+  },
+  {
+    "courseId": "6",
+    "quizId": "quiz-6",
+    "question": "TypeScript adds what feature to JavaScript?",
+    "options": ["Styling support", "State management", "Static typing"],
+    "answer": "Static typing"
+  },
+  {
+    "courseId": "7",
+    "quizId": "quiz-7",
+    "question": "Which technique helps improve React app performance?",
+    "options": ["Using more components", "Code splitting", "Writing inline CSS"],
+    "answer": "Code splitting"
+  },
+  {
+    "courseId": "8",
+    "quizId": "quiz-8",
+    "question": "Which library is commonly used to test React components?",
+    "options": ["Jest", "Lodash", "Webpack"],
+    "answer": "Jest"
+  },
+  {
+    "courseId": "9",
+    "quizId": "quiz-9",
+    "question": "Next.js is built on top of which library?",
+    "options": ["Angular", "React", "Vue"],
+    "answer": "React"
+  },
+  {
+    "courseId": "10",
+    "quizId": "quiz-10",
+    "question": "React Native is used to build what kind of apps?",
+    "options": ["Desktop apps", "Mobile apps", "Web apps only"],
+    "answer": "Mobile apps"
+  }
+]

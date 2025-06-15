@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background: #f5f6fa;
+    color: #2f3640;
+}
+
+.app-header {
+    background-color: #dcdde1;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #2f3640;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.post-card {
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #192a56;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-actions {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    background: #00a8ff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0097e6;
+}
+
+button.danger {
+    background: #e84118;
+}
+
+button.danger:hover {
+    background: #c23616;
+}
+
+.loader {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #718093;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e84118;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #40739e;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #dcdde1;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.post-detail {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}

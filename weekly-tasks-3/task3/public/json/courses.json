@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "React Basics",
+    "description": "Learn components, props, and state.",
+    "videoUrl": "https://www.youtube.com/embed/Ke90Tje7VS0"
+  },
+  {
+    "id": "2",
+    "title": "React Router",
+    "description": "Master routing in React apps.",
+    "videoUrl": "https://www.youtube.com/embed/Law7wfdg_ls"
+  },
+  {
+    "id": "3",
+    "title": "React Hooks",
+    "description": "Understand useState, useEffect, and custom hooks.",
+    "videoUrl": "https://www.youtube.com/embed/dpw9EHDh2bM"
+  },
+  {
+    "id": "4",
+    "title": "Context API",
+    "description": "Manage global state in a React app using Context.",
+    "videoUrl": "https://www.youtube.com/embed/5LrDIWkK_Bc"
+  },
+  {
+    "id": "5",
+    "title": "Redux Essentials",
+    "description": "Learn Redux for scalable state management.",
+    "videoUrl": "https://www.youtube.com/embed/93p3LxR9xfM"
+  },
+  {
+    "id": "6",
+    "title": "React + TypeScript",
+    "description": "Build safer React apps with TypeScript.",
+    "videoUrl": "https://www.youtube.com/embed/Z5iWr6Srsj8"
+  },
+  {
+    "id": "7",
+    "title": "Performance Optimization",
+    "description": "Code splitting, memoization, and lazy loading in React.",
+    "videoUrl": "https://www.youtube.com/embed/cCOL7MC4Pl0"
+  },
+  {
+    "id": "8",
+    "title": "Testing React Apps",
+    "description": "Unit and integration testing using Jest and React Testing Library.",
+    "videoUrl": "https://www.youtube.com/embed/ML5egqL3YFE"
+  },
+  {
+    "id": "9",
+    "title": "Next.js Introduction",
+    "description": "Server-side rendering and routing with Next.js.",
+    "videoUrl": "https://www.youtube.com/embed/Sklc_fQBmcs"
+  },
+  {
+    "id": "10",
+    "title": "React Native Overview",
+    "description": "Build mobile apps using React Native.",
+    "videoUrl": "https://www.youtube.com/embed/Hf4MJH0jDb4"
+  }
+]
